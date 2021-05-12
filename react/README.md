@@ -1,13 +1,12 @@
-# @paybutton/react
+# @PacCash/react
 
-> The easiest way to accept Bitcoin Cash online
+> Paycash Is React Widget Helps To Accept BCH In Your Website
 
-[![NPM](https://img.shields.io/npm/v/@paybutton/react.svg)](https://www.npmjs.com/package/@paybutton/react)
 
 ## Install
 
 ```bash
-npm install --save @paybutton/react
+npm install --save @paycash/react
 ```
 
 ## Usage
@@ -15,7 +14,7 @@ npm install --save @paybutton/react
 ```tsx
 import React from 'react'
 
-import { PayCash } from '@paybutton/react'
+import { PayCash } from '@paycash/react'
 
 <PayCash to={address} />
 ```
@@ -23,3 +22,8 @@ import { PayCash } from '@paybutton/react'
 ## License
 
 MIT
+
+
+##Email
+
+team@paycash.host

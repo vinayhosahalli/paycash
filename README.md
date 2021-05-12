@@ -1,8 +1,8 @@
 # PayCash
-The easiest way to accept Bitcoin Cash online.
+Paycash Is React Widget Helps To Accept BCH In Your Website
 
-https://paybutton.org
+https://paycash.host
 
 ## Want to join the team?
 
-Send us an email and we'll get in touch: contact@paybutton.org
+for more info :team@paycash.host
