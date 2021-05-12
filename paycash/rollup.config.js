@@ -12,7 +12,7 @@ export default ( env ) => ({
   input: 'src/index.tsx',
   output: {
     file: 'dist/paycash.js',
-    name: 'PayButton',
+    name: 'PayCash',
     format: 'umd',
   },
   plugins: [

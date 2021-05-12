@@ -6,7 +6,7 @@ import Button, { ButtonProps } from '../Button/Button';
 import { WidgetContainer, currency } from '../Widget/WidgetContainer';
 import { validateCashAddress } from '../../util/address';
 
-export interface PayButtonProps extends ButtonProps {
+export interface PayCashProps extends ButtonProps {
   to: string;
   amount?: number | string;
   currency?: currency;
@@ -24,7 +24,7 @@ export interface PayButtonProps extends ButtonProps {
   onTransaction?: (txid: string, amount: number) => void;
 }
 
-export const PayButton = (props: PayButtonProps): React.ReactElement => {
+export const PayCash = (props: PayCashProps): React.ReactElement => {
   const [widgetOpen, setWidgetOpen] = useState(false);
   const [success, setSuccess] = useState(false);
   const [disabled, setDisabled] = useState(false);
@@ -45,7 +45,7 @@ export const PayButton = (props: PayButtonProps): React.ReactElement => {
     goalAmount,
     disableEnforceFocus,
     editable,
-  } = Object.assign({}, PayButton.defaultProps, props);
+  } = Object.assign({}, PayCash.defaultProps, props);
 
   const handleButtonClick = (): void => setWidgetOpen(true);
   const handleWidgetClose = (): void => {
@@ -140,7 +140,7 @@ export const PayButton = (props: PayButtonProps): React.ReactElement => {
   );
 };
 
-PayButton.defaultProps = {
+PayCash.defaultProps = {
   animation: 'slide',
   hideToasts: false,
   randomSatoshis: true,
@@ -150,4 +150,4 @@ PayButton.defaultProps = {
   editable: false,
 };
 
-export default PayButton;
+export default PayCash;

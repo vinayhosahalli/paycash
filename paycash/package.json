@@ -1,7 +1,7 @@
 {
-  "name": "@paybutton/paybutton",
-  "version": "1.1.0",
-  "description": "The easiest way to accept Bitcoin Cash online",
+  "name": "@paycash/paycash",
+  "version": "1.0.0",
+  "description": " react component to  easiest way to accept BCH on your website",
   "main": "dist/paycash.js",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",
@@ -12,7 +12,7 @@
     "@rollup/plugin-replace": "^2.3.3",
     "@rollup/plugin-typescript": "^5.0.1",
     "camelcase": "^6.0.0",
-    "paybutton": "file:../react",
+    "paycash": "file:../react",
     "preact": "^10.4.5",
     "rollup": "^2.19.0",
     "rollup-plugin-cleanup": "^3.1.1",
@@ -27,10 +27,10 @@
     "start": "rollup -c rollup.dev.js -w",
     "build": "npm ci && rollup -c rollup.prod.js"
   },
-  "author": "",
+  "author": "vinaybtcc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PayButton/paybutton.git"
+    "url": "https://github.com/paycash/paycash.git"
   },
   "files": [
     "dist"

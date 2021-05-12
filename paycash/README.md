@@ -27,7 +27,7 @@ npm install --save @paybutton/paybutton
 
 ## Documentation
 
-<a href="https://paybutton.org">PayButton.org</a>
+<a href="https://paybutton.org">PayCash.org</a>
 
 ## License
 

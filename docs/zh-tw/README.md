@@ -59,7 +59,7 @@ var config = {
   randomSatoshis: true
 };
 
-PayButton.render(document.getElementById('my_button'), config);
+PayCash.render(document.getElementById('my_button'), config);
 </script>
 ```
 
@@ -128,7 +128,7 @@ npm i --save @paybutton/react
 ```
 
 ```react
-import { PayButton } from '@paybutton/react'
+import { PayCash } from '@paybutton/react'
 
 function App() {
   function mySuccessFunction() {
@@ -149,7 +149,7 @@ function App() {
   }
   const onSuccess = mySuccessFunction()
 
-  return <PayButton
+  return <PayCash
     to={to}
     amount={amount}
     currency={currency}
@@ -184,7 +184,7 @@ function App() {
 <div id="my_button"></div>
 
 <script>
-PayButton.renderWidget(document.getElementById('my_button'), { to: 'bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp' });
+PayCash.renderWidget(document.getElementById('my_button'), { to: 'bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp' });
 </script>
 ```
 
@@ -679,7 +679,7 @@ PayButton是一個社區主導的開放源代碼促進會。此項目的成功�
 
 ### 构建
 
-1. `git clone https://github.com/PayButton/paybutton.git`
+1. `git clone https://github.com/PayCash/paybutton.git`
 2. `cd paybutton/react && npm i && npm run build && cd ../paybutton && npm i && npm run build`
 
 ### 启动Storybook

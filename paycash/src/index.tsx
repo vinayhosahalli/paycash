@@ -1,5 +1,5 @@
 import camelcase from 'camelcase';
-import { PayButton, PayButtonProps, Widget, WidgetProps } from 'paybutton';
+import { PayCash, PayCashProps, Widget, WidgetProps } from 'paycash';
 import { h } from 'preact';
 import { render } from 'preact/compat';
 
@@ -15,7 +15,7 @@ if (typeof window !== 'undefined') {
 
 function init() {
   function render() {
-    let paybuttonDivID: string = '';
+    let paycashDivID: string = '';
     let createdInJS: boolean = false;
     //prevent firing multiple times
     window.onload = () => {
@@ -23,25 +23,25 @@ function init() {
 
       for (let i = 0; i < yes.length; i++) {
         const each = yes[i].innerHTML;
-        let split = each.split('PayButton.render(document.getElementById(')
+        let split = each.split('PayCash.render(document.getElementById(')
         if (split.length > 1) {
           let id: any = split[1].split(`'`)
           createdInJS = true;
-          paybuttonDivID = id[1]
+          paycashDivID = id[1]
         }
       }
 
-      const javascriptDivExists = document.getElementById(paybuttonDivID);
+      const javascriptDivExists = document.getElementById(paycashDivID);
 
       if (createdInJS && javascriptDivExists === null) {
-        return console.error(`The Paybutton div#${paybuttonDivID} is either misspelled or missing.`)
+        return console.error(`The Paycash div#${paycashDivID} is either misspelled or missing.`)
       } else if (createdInJS) {
         return
       } else {
-        const paybuttonExists: boolean = document.getElementsByClassName('paybutton').length > 0
-        const widgetExists: boolean = document.getElementsByClassName('paybutton-widget').length > 0
-        renderButtons(widgetExists, paybuttonExists);
-        renderWidgets(widgetExists, paybuttonExists);
+        const paycashExists: boolean = document.getElementsByClassName('paycash').length > 0
+        const widgetExists: boolean = document.getElementsByClassName('paycash-widget').length > 0
+        renderButtons(widgetExists, paycashExists);
+        renderWidgets(widgetExists, paycashExists);
       }
     }
 
@@ -84,20 +84,20 @@ const requiredProps = [
 ];
 
 
-export function renderButtons(widgetExists: boolean, paybuttonExists: boolean): void {
+export function renderButtons(widgetExists: boolean, paycashExists: boolean): void {
 
-  if (!widgetExists && !paybuttonExists) {
-    console.error('The "paybutton" class is either misspelled or missing.')
+  if (!widgetExists && !paycashExists) {
+    console.error('The "paycash" class is either misspelled or missing.')
   } else {
-    findAndRender('paybutton', PayButton, allowedProps, requiredProps);
+    findAndRender('paycash', PayCash, allowedProps, requiredProps);
   }
 }
 
-export function renderWidgets(widgetExists: boolean, paybuttonExists: boolean): void {
-  if (!widgetExists && !paybuttonExists) {
-    console.error('The "paybutton-widget" class is either misspelled or missing.')
+export function renderWidgets(widgetExists: boolean, paycashExists: boolean): void {
+  if (!widgetExists && !paycashExists) {
+    console.error('The "paycash-widget" class is either misspelled or missing.')
   } else {
-    findAndRender('paybutton-widget', Widget, allowedProps, requiredProps);
+    findAndRender('paycash-widget', Widget, allowedProps, requiredProps);
   }
 }
 
@@ -148,9 +148,9 @@ function findAndRender<T>(className: string, Component: React.ComponentType<any>
       }
 
       if (!requiredProps.every(name => name in attributes)) {
-        /*         console.error('PayButton: missing required attribute: ' + JSON.stringify(requiredProps.filter(name => !(name in attributes)))); */
+        /*         console.error('paycash: missing required attribute: ' + JSON.stringify(requiredProps.filter(name => !(name in attributes)))); */
         // return;
-        console.error('The "to" parameter is missing from your PayButton config. Please check it')
+        console.error('The "to" parameter is missing from your config var. Please check it')
       }
 
       //    el.classList.remove(className);
@@ -159,7 +159,7 @@ function findAndRender<T>(className: string, Component: React.ComponentType<any>
     });
 }
 
-const validateJSProps = (props: PayButtonProps) => {
+const validateJSProps = (props: PayCashProps) => {
   if (props.amount !== null && props.amount !== undefined) {
     props.amount = +props.amount
 
@@ -172,10 +172,10 @@ const validateJSProps = (props: PayButtonProps) => {
 }
 
 export default {
-  render: (el: HTMLElement, props: PayButtonProps) => {
+  render: (el: HTMLElement, props: PayCashProps) => {
     if (el !== null) {
       validateJSProps(props)
-      render(<PayButton {...props} />, el)
+      render(<PayCash {...props} />, el)
     }
   },
   renderWidget: (el: HTMLElement, props: WidgetProps) => {

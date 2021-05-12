@@ -1,6 +1,6 @@
-# What Is PayButton?
+# What Is PayCash?
 
-> PayButton makes it easy to accept Bitcoin Cash by adding a donation or buy button to your website.<br />To get started, you'll have to set up a Bitcoin Cash wallet so you can begin receiving money. If you don’t have one yet, there are [plenty to choose from](https://bitcoincash.org/#wallets-section).
+> PayCash makes it easy to accept Bitcoin Cash by adding a donation or buy button to your website.<br />To get started, you'll have to set up a Bitcoin Cash wallet so you can begin receiving money. If you don’t have one yet, there are [plenty to choose from](https://bitcoincash.org/#wallets-section).
 
 <div class="paybutton" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" theme='{ "palette": { "primary": "#42b983", "secondary": "#ffffff", "tertiary": "#333333"} }'></div>
 
@@ -19,7 +19,7 @@ Simply add the following to your website’s HTML, replacing `YOUR_ADDRESS_HERE`
 
 # Advanced Usage
 
-Example using JavaScript to generate a PayButton:
+Example using JavaScript to generate a PayCash:
 
 <div id="advanced-usage-example"></div>
 
@@ -59,7 +59,7 @@ var config = {
   randomSatoshis: true
 };
 
-PayButton.render(document.getElementById('my_button'), config);
+PayCash.render(document.getElementById('my_button'), config);
 </script>
 ```
 
@@ -117,7 +117,7 @@ render( '#react-usage-example', {
 
 # React
 
-Example using React to generate a PayButton:
+Example using React to generate a PayCash:
 
 <div id="react-usage-example"></div>
 
@@ -128,7 +128,7 @@ npm i --save @paybutton/react
 ```
 
 ```react
-import { PayButton } from '@paybutton/react'
+import { PayCash } from '@paybutton/react'
 
 function App() {
   function mySuccessFunction() {
@@ -149,7 +149,7 @@ function App() {
   }
   const onSuccess = mySuccessFunction()
 
-  return <PayButton
+  return <PayCash
     to={to}
     amount={amount}
     currency={currency}
@@ -163,7 +163,7 @@ function App() {
 
 # Widget
 
-You can also create an always-visible PayButton Widget that doesn't require clicking a button to open:
+You can also create an always-visible PayCash Widget that doesn't require clicking a button to open:
 
 <div class="paybutton-widget" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" style="max-width:500px"></div>
 
@@ -184,7 +184,7 @@ You can also create an always-visible PayButton Widget that doesn't require clic
 <div id="my_button"></div>
 
 <script>
-PayButton.renderWidget(document.getElementById('my_button'), { to: 'bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp' });
+PayCash.renderWidget(document.getElementById('my_button'), { to: 'bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp' });
 </script>
 ```
 
@@ -205,7 +205,7 @@ export default App;
 
 # Parameters
 
-Customize your PayButton with the following available options:
+Customize your PayCash with the following available options:
 
 ## to
 
@@ -673,13 +673,13 @@ disabled = true
 
 # Contribute
 
-PayButton is a community-driven open-source initiative. Contributions from the community are _crucial_ to the success of the project.
+PayCash is a community-driven open-source initiative. Contributions from the community are _crucial_ to the success of the project.
 
 ## Developer Quick Start
 
 ### Build
 
-1. `git clone https://github.com/PayButton/paybutton.git`
+1. `git clone https://github.com/PayCash/paybutton.git`
 2. `cd paybutton/react && npm i && npm run build && cd ../paybutton && npm i && npm run build`
 
 ### Starting Storybook
@@ -702,6 +702,6 @@ PayButton is a community-driven open-source initiative. Contributions from the c
 
 ## Donate
 
-> All PayButton donations received are used to directly fund PayButton development.
+> All PayCash donations received are used to directly fund PayCash development.
 
 <div class="paybutton-widget" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" style="max-width:500px"></div>

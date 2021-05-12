@@ -15,11 +15,11 @@ npm install --save @paybutton/react
 ```tsx
 import React from 'react'
 
-import { PayButton } from '@paybutton/react'
+import { PayCash } from '@paybutton/react'
 
-<PayButton to={address} />
+<PayCash to={address} />
 ```
 
 ## License
 
-MIT 
+MIT

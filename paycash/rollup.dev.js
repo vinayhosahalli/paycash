@@ -25,7 +25,7 @@ function template ( { attributes, title, bundle } ) {
       <body>
         ${ Object.keys( bundle ).map( chunk => `<script src="${chunk}"></script>`) }
         <div id="content">
-          <div class="paybutton"
+          <div class="paycash"
             amount="1"
             animation="invert"
             callback="( txid, amount ) => console.log( { txid, amount } )"
@@ -39,15 +39,15 @@ function template ( { attributes, title, bundle } ) {
           >
           </div>
           <br />
-          <div class="paybutton" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" animation="invert" palette='{ "primary": "#26a", "secondary": "#dff", "dark": "#3a6" }'></div>
+          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" animation="invert" palette='{ "primary": "#26a", "secondary": "#dff", "dark": "#3a6" }'></div>
           <br />
-          <div class="paybutton" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="2.1999" animation="none" palette="orange"></div>
+          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="2.1999" animation="none" palette="orange"></div>
           <br />
-          <div class="paybutton" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="5" currency="USD" display-currency="BCH"></div>
+          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="5" currency="USD" display-currency="BCH"></div>
           <br />
-          <div class="paybutton" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
+          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
           <br />
-          <div class="paybutton-widget" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
+          <div class="paycash-widget" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
         </div>
       </body>
     </html>
