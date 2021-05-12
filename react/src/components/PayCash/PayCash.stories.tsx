@@ -2,11 +2,11 @@ import { Story } from '@storybook/react';
 import React from 'react';
 
 import { ThemeName } from '../../themes';
-import PayButton, { PayButtonProps } from './PayButton';
+import PayCash, { PayCashProps } from './PayCash';
 
 export default {
-  title: 'PayButton',
-  component: PayButton,
+  title: 'PayCash',
+  component: PayCash,
   decorators: [
     (Story: Story): JSX.Element => (
       <div style={{ margin: 'auto', maxWidth: 400 }}>
@@ -27,7 +27,7 @@ export default {
   },
 };
 
-const Template: Story<PayButtonProps> = props => <PayButton {...props} />;
+const Template: Story<PayCashProps> = props => <PayCash {...props} />;
 
 export const Default = Template.bind({});
 Default.args = {};
