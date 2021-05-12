@@ -11,8 +11,8 @@ import { terser } from 'rollup-plugin-terser';
 export default ( env ) => ({
   input: 'src/index.tsx',
   output: {
-    file: 'dist/paycash.js',
-    name: 'paycash',
+    file: 'dist/paybutton.js',
+    name: 'PayButton',
     format: 'umd',
   },
   plugins: [
