@@ -2,7 +2,7 @@
 
 > The easiest way to accept Bitcoin Cash online
 
-[![NPM](https://img.shields.io/npm/v/@paybutton/paybutton.svg)](https://www.npmjs.com/package/@paybutton/paybutton)
+[![NPM](https://img.shields.io/badge/Paycash-npm%401.0.0-green)](https://www.npmjs.com/package/@paycash/paycash)
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install --save @paycash/paycash
 
 ```
 <script src="https://unpkg.com/@paycash/paycash/dist/paycash.js"></script>
-<div class="paybutton"
+<div class="paycash"
   to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f"
   amount="5"
   currency="USD"
@@ -32,3 +32,7 @@ npm install --save @paycash/paycash
 ## License
 
 MIT 
+
+##Email
+
+team@paycash.host

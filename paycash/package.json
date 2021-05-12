@@ -24,7 +24,7 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
-    "start": "rollup -c rollup.dev.js -w",
+    "start": "rollup -c",
     "build": "npm ci && rollup -c rollup.prod.js"
   },
   "author": "vinaybtcc",
@@ -35,5 +35,6 @@
   "files": [
     "dist"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["bitcoin", "bitcoin cash", "crypto widget", "paycash", "BCh", "Script"]
 }
