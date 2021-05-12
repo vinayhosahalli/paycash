@@ -2,7 +2,7 @@
   "name": "@paybutton/paybutton",
   "version": "1.1.0",
   "description": "The easiest way to accept Bitcoin Cash online",
-  "main": "dist/paybutton.js",
+  "main": "dist/paycash.js",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",
     "@rollup/plugin-commonjs": "^13.0.0",
