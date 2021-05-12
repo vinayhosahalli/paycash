@@ -1,7 +1,7 @@
 {
   "name": "@paycash/paycash",
   "version": "1.0.0",
-  "description": " react component to  easiest way to accept BCH on your website",
+  "description": "react component to  easiest way to accept BCH on your website",
   "main": "dist/paycash.js",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",

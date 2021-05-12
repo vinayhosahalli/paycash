@@ -34,20 +34,20 @@ function template ( { attributes, title, bundle } ) {
             hover-text="Send BCH!!!"
             palette='{ "primary": "#26a", "secondary": "#dff", "dark": "#3a6" }'
             text="Donate!!!"
-            to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp"
+            to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f"
             success-text="Thank you!!!!"
           >
           </div>
           <br />
-          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" animation="invert" palette='{ "primary": "#26a", "secondary": "#dff", "dark": "#3a6" }'></div>
+          <div class="paycash" to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f" animation="invert" palette='{ "primary": "#26a", "secondary": "#dff", "dark": "#3a6" }'></div>
           <br />
-          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="2.1999" animation="none" palette="orange"></div>
+          <div class="paycash" to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f" amount="2.1999" animation="none" palette="orange"></div>
           <br />
-          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="5" currency="USD" display-currency="BCH"></div>
+          <div class="paycash" to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f" amount="5" currency="USD" display-currency="BCH"></div>
           <br />
-          <div class="paycash" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
+          <div class="paycash" to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f" amount="50000" currency="SAT" detect-payment="true"</div>
           <br />
-          <div class="paycash-widget" to="bitcoincash:qrmm7edwuj4jf7tnvygjyztyy0a0qxvl7q9ayphulp" amount="50000" currency="SAT" detect-payment="true"</div>
+          <div class="paycash-widget" to="bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f" amount="50000" currency="SAT" detect-payment="true"</div>
         </div>
       </body>
     </html>
