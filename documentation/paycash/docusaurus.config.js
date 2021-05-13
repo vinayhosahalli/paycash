@@ -2,12 +2,12 @@
 module.exports = {
   title: 'PayCash',
   tagline: 'PayCash For Seamless Bitcoin Cash Accept On Your Website',
-  url: 'https://paycash.host',
+  url: 'https://paycash-host.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'PayCash', // Usually your GitHub org/user name.
+  organizationName: 'paycash-host', // Usually your GitHub org/user name.
   projectName: 'paycash', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -24,7 +24,7 @@ module.exports = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/paycash-host/paycash',
           label: 'GitHub',
           position: 'right',
         },

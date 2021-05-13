@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/qr-code.svg').default,
     description: (
       <>
-        Your Valuable Donation Will Help Has To Maintain And Bring New Features "HELP US TO HELP OTHERS"
+        Your Valuable Donation Will Help Has To Maintain And Bring New Features "HELP US TO HELP OTHERS".
 
       </>
     ),
