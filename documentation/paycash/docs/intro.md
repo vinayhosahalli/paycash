@@ -58,7 +58,7 @@ function App() {
   const to = 'bitcoincash:qznnqftcnq34vprgvhhnmr9yukd9deprl5dptmkh4f'
   const amount = 5
   const currency = 'USD'
-  const text = 'Help Has To Help Other'
+  const text = 'Help Us To Help Other'
   const onSuccess = mySuccessFunction()
 
   return <PayCash
