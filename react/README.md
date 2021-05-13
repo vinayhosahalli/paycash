@@ -1,8 +1,8 @@
-# @PacCash/react
+# @paycash/react
 
 > Paycash Is React Widget Helps To Accept BCH In Your Website
 
-[![NPM](https://img.shields.io/badge/Paycash@react-npm%401.0.0-green)](https://www.npmjs.com/package/@paycash/react)
+[![NPM](https://img.shields.io/badge/paycash@react-npm%401.0.0-green)](https://www.npmjs.com/package/@paycash/react)
 ## Install
 
 ```bash
@@ -26,6 +26,6 @@ import { PayCash } from '@paycash/react'
 
 MIT
 
-##Email
+## Email
 
 team@paycash.host
