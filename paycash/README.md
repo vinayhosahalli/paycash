@@ -20,8 +20,7 @@ npm install --save @paycash/paycash
   currency="USD"
   animation="invert"
   text="Donate $5"
-  hover-text="Send BCH"
-  success-text="Thank you for supporting us"
+  success-text="Help Has To Help Other"
 ></div>
 ```
 

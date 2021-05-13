@@ -95,5 +95,6 @@
       "eslint --fix",
       "prettier --write"
     ]
-  }
+  },
+  "keywords": ["bitcoin", "bitcoin cash", "crypto widget", "paycash", "BCh", "Script"]
 }
