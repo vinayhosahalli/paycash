@@ -1,7 +1,7 @@
 {
   "name": "@paycash/paycash",
   "version": "1.0.2",
-  "description": "react component to  easiest way to accept BCH on your website",
+  "description": "PayCash For Seamless Bitcoin Cash Accept On Your Website",
   "main": "dist/paycash.js",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",
@@ -32,7 +32,7 @@
     "type": "git",
     "url": "https://github.com/paycash-host/paycash.git"
   },
-  "homepage": "paycash-host.github.io",
+  "homepage": "paycash-host.github.io/paycash",
   "files": [
     "dist"
   ],
