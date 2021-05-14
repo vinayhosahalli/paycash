@@ -2,7 +2,7 @@
 
 > The easiest way to accept Bitcoin Cash online
 
-[![NPM](https://img.shields.io/badge/Paycash-npm%401.0.0-green)](https://www.npmjs.com/package/@paycash/paycash)
+[![NPM](https://img.shields.io/badge/Paycash-npm%401.0.2-green)](https://www.npmjs.com/package/@paycash/paycash)
 
 ## Install
 
@@ -32,6 +32,6 @@ npm install --save @paycash/paycash
 
 MIT 
 
-##Email
+## Email
 
 team@paycash.host

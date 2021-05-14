@@ -5,4 +5,4 @@ https://paycash.host
 
 ## Want to join the team?
 
-for more info :team@paycash.host
+for more info: team@paycash.host

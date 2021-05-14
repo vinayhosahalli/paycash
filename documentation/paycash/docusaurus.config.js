@@ -3,7 +3,7 @@ module.exports = {
   title: 'PayCash',
   tagline: 'PayCash For Seamless Bitcoin Cash Accept On Your Website',
   url: 'https://paycash-host.github.io',
-  baseUrl: '/paycash/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

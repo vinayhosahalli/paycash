@@ -1,6 +1,6 @@
 {
   "name": "@paycash/react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Paycash Is React Widget Helps To Accept BCH In Your Website",
   "author": "vinaybtcc",
   "license": "MIT",
@@ -96,5 +96,6 @@
       "prettier --write"
     ]
   },
+  "homepage": "paycash-host.github.io",
   "keywords": ["bitcoin", "bitcoin cash", "crypto widget", "paycash", "BCh", "Script"]
 }
